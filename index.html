@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajan Jasani - Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <body>
+        <header class="mobile-header">
+            <button class="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <h2>Menu</h2>
+            <nav class="mobile-nav">
+                <ul class="nav-links">
+                    <li><a href="#about" class="active"><i class="fas fa-user"></i>About</a></li>
+                    <!-- <li><a href="#resume"><i class="fas fa-file-alt"></i>Resume</a></li> -->
+                    <li><a href="#experience"><i class="fas fa-briefcase"></i>Experience</a></li>
+                    <li><a href="#skills"><i class="fas fa-code"></i>Skills</a></li>
+                    <!-- <li><a href="#projects"><i class="fas fa-project-diagram"></i>Projects</a></li> -->
+                    <!-- <li><a href="#certifications"><i class="fas fa-certificate"></i>Certifications</a></li> -->
+                    <li><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <div class="main-body">
+            <div class="card-left">
+                <div class="intro-section">
+                    <div class="profile-container">
+                        <div class="profile-photo">
+                            <img src="media/rajan3.jpg" alt="Profile Photo" />
+                        </div>
+                        <div class="profile-info">
+                            <div class="greeting">
+                                Hi <span style="font-size: 1.4rem;">👋</span> myself,
+                            </div>
+                            <h1 class="name">Rajan Jasani</h1>
+                            <div class="title">Back-End Developer | Software Engineer L2</div>
+                            <div class="tagline">
+                                Innovative, Proactive, Collaborative
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="availability-container">
+                        <div class="availability-status freelance" onclick="window.location.href='#contact'">
+                            <span class="status-dot available"></span>
+                            <span>Available for Freelancing</span>
+                        </div>
+                        <div class="availability-status job">
+                            <span class="status-dot unavailable"></span>
+                            <span>Not seeking full-time opportunities</span>
+                        </div>
+                    </div>
+                </div>
+                <nav class="desktop-nav">
+                    <ul class="nav-links">
+                        <li><a href="#about" class="active"><i class="fas fa-user"></i>About</a></li>
+                        <!-- <li><a href="#resume"><i class="fas fa-file-alt"></i>Resume</a></li> -->
+                        <li><a href="#experience"><i class="fas fa-briefcase"></i>Experience</a></li>
+                        <li><a href="#skills"><i class="fas fa-code"></i>Skills</a></li>
+                        <!-- <li><a href="#projects"><i class="fas fa-project-diagram"></i>Projects</a></li> -->
+                        <!-- <li><a href="#certifications"><i class="fas fa-certificate"></i>Certifications</a></li> -->
+                        <li><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            
+        <div class="card-right">
+            <div id="about" class="section">
+                <h2>About</h2>
+                <p>I'm a backend developer who thrives on turning complex challenges into elegant, scalable solutions. 💻 With a knack for working with frameworks like Django and FastAPI, along with expertise in PostgreSQL and MongoDB, I'm passionate about building the backbone of seamless digital experiences. 🚀 Whether I'm deep in LeetCode puzzles or designing robust systems, problem-solving is my fuel. <br> 🔍 Beyond coding, you'll find me strumming my guitar 🎸 or embarking on adventures to new destinations 🌍, always seeking fresh perspectives to inspire my next big idea. Let's collaborate and create something truly impactful! 💡</p>
+            </div>
+
+            <div id="experience" class="section">
+                <h2>Experience</h2>
+                <div class="experience-card">
+                    <h3>Backend Developer | Software Engineer L2</h3>
+                    <p class="date">Crest SkillServe pvt ltd. | May, 2024 - Present</p>
+                    <p>In my current role as a Backend Developer, I focus on designing and implementing robust backend APIs and database architectures that support scalable applications. I work closely with cross-functional teams to ensure seamless integration between front-end and back-end systems.</p>
+                </div>
+                <div class="experience-card">
+                    <h3>Backend Developer Intern</h3>
+                    <p class="date">Crest Infosystems pvt ltd. | Jan, 2024 - Apr, 2024</p>
+                    <p>As a Backend Developer intern, I gained hands-on experience in building and optimizing backend systems for web applications. I collaborated with senior developers to design and implement RESTful APIs.</p>
+                </div>
+            </div>
+
+            <div id="skills" class="section">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-laptop-code"></i> Programming</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">HTML & CSS</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-tools"></i> Frameworks & Tools</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">Django</span>
+                            <span class="skill-tag">FastAPI</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Git</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-database"></i> Databases</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-brain"></i> AI & ML</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">OpenAI APIs</span>
+                            <span class="skill-tag">LLMs</span>
+                            <span class="skill-tag">LangChain</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contact" class="section contact-card">
+                <h2>Contact</h2>
+                
+                <div class="social-links">
+                    <span>Socials:</span>
+                    <a href="https://www.linkedin.com/in/rajanjasani/" class="social-link" data-tooltip="LinkedIn" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Rajan-Jasani9" class="social-link" data-tooltip="GitHub" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://instagram.com/khanabadosh_r9" class="social-link" data-tooltip="Instagram" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://leetcode.com/rajan_jasani9" class="social-link" data-tooltip="LeetCode" target="_blank" aria-label="LeetCode">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+                <div class="contact-form">
+                    <p>Email: rajan.developer09@gmail.com</p>
+                    <p>Phone: +91-7016566752</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.querySelector('.hamburger');
+    const mobileNav = document.querySelector('.mobile-nav');
+    const body = document.body;
+    const allNavLinks = document.querySelectorAll('.nav-links a');
+
+    // Function to update active state
+    const updateActiveLink = (clickedLink) => {
+        // Remove active class from all links
+        allNavLinks.forEach(link => {
+            link.classList.remove('active');
+        });
+        // Add active class to clicked link and its corresponding link in other nav
+        const href = clickedLink.getAttribute('href');
+        document.querySelectorAll(`.nav-links a[href="${href}"]`).forEach(link => {
+            link.classList.add('active');
+        });
+    };
+
+    // Toggle navigation
+    hamburger.addEventListener('click', () => {
+        mobileNav.classList.toggle('active');
+        hamburger.classList.toggle('active');
+        body.classList.toggle('nav-open');
+    });
+
+    // Handle navigation clicks
+    allNavLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            // Update active state
+            updateActiveLink(e.currentTarget);
+            
+            // Close mobile nav if open
+            mobileNav.classList.remove('active');
+            hamburger.classList.remove('active');
+            body.classList.remove('nav-open');
+        });
+    });
+
+    // Close nav when clicking outside
+    document.addEventListener('click', (e) => {
+        if (mobileNav.classList.contains('active') && 
+            !mobileNav.contains(e.target) && 
+            !hamburger.contains(e.target)) {
+            mobileNav.classList.remove('active');
+            hamburger.classList.remove('active');
+            body.classList.remove('nav-open');
+        }
+    });
+
+    // Set active link based on current scroll position
+    const updateActiveOnScroll = () => {
+        const sections = document.querySelectorAll('.section');
+        let currentSection = '';
+
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            if (window.scrollY >= (sectionTop - sectionHeight/3)) {
+                currentSection = '#' + section.getAttribute('id');
+            }
+        });
+
+        if (currentSection) {
+            allNavLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === currentSection) {
+                    link.classList.add('active');
+                }
+            });
+        }
+    };
+
+    // Update active link on scroll
+    window.addEventListener('scroll', updateActiveOnScroll);
+    
+    // Set initial active link based on URL hash or first section
+    window.addEventListener('load', () => {
+        if (window.location.hash) {
+            const initialLink = document.querySelector(`.nav-links a[href="${window.location.hash}"]`);
+            if (initialLink) updateActiveLink(initialLink);
+        }
+        // If no hash, initial scroll position check
+        else {
+            updateActiveOnScroll();
+        }
+    });
+});
+    </script>
+</body>
+</html>
